@@ -2,6 +2,7 @@
 
 :root {
   --main-font: font-family "Roboto", sans-serif;
+  --main-color: #2196F3;
 }
 
 /* --- header --- */
@@ -68,6 +69,7 @@ color: #757575;
 .adress_email_telefon:hover{
 color: #2196F3;
 }
+
 .adress_email_telefon:focus{
 color: #2196F3;
 }
@@ -349,6 +351,9 @@ list-style-type: none;
 .adress_email_telefon:not(:last-child) {
 margin-right: 50px;
 }
+.adress_email_telefon{
+padding-left: 10px;  
+}
 .contact {
 display: flex;
 }
@@ -512,4 +517,33 @@ padding-right: 24px;
 padding-bottom: 20px;
 padding-left: 24px;
 padding-right: 24px;;
+}
+
+/* ICONS */
+
+.icon_envelope {
+width: 16px;
+height: 12px;
+display: flex;
+}
+
+.why_us_list_image_icon_background {
+display: flex; 
+justify-content: center;
+align-items: center;
+width: 270px;
+height: 120px;
+background: #F5F4FA;
+border-radius: 4px;
+}
+.why_us_list_image_icon {
+  display: flex;  
+  display: block;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+}
+
+.why_us_list_name {
+  margin-top: 30px;
 }
