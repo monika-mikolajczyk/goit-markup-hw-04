@@ -519,14 +519,7 @@ padding-left: 24px;
 padding-right: 24px;;
 }
 
-/* ICONS */
-
-.icon_envelope {
-width: 16px;
-height: 12px;
-display: flex;
-color: #afb1b8; 
-}
+/* why us 4 zadanie */
 
 .why_us_list_image_icon_background {
 display: flex; 
@@ -538,16 +531,19 @@ background: #F5F4FA;
 border-radius: 4px;
 }
 .why_us_list_image_icon {
-  display: flex;  
-  display: block;
-  justify-content: center;
-  width: 70px;
-  height: 70px;
+display: flex;  
+display: block;
+justify-content: center;
+width: 70px;
+height: 70px;
 }
 
 .why_us_list_name {
-  margin-top: 30px;
+margin-top: 30px;
 }
+
+
+/* email_phone 4 zadanie*/
 
 .contact_envelope {
 display: flex;
@@ -577,7 +573,7 @@ margin-right: 10px;
 }
 
 .icon_phone {
-  margin-right: 10px;
+margin-right: 10px;
 }
 
 .adress_email_telefon {
@@ -585,20 +581,19 @@ display: flex;
 align-items: center;
 }
 
-/* social list icons */
+/* social list icons 4 zadanie */
 
 .social_list {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 32px;
-  padding-left: 32px;
-  padding-bottom: 30px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding-right: 32px;
+padding-left: 32px;
+padding-bottom: 30px;
 }
 
 .social_list_item {
 justify-content: center;
-
 }
 
 .social_list__link {
@@ -613,122 +608,120 @@ align-items: center;
 }
 
 .social_icon {
-  width: 20px;
-  height: 20px;
-  align-items: center;
-  display: block;
+width: 20px;
+height: 20px;
+align-items: center;
+display: block;
 }
 
 .social_list__link:hover,
 .social_list__link:focus {
-  fill: #fff;
-  background-color: var(--main-color);
+fill: #fff;
+background-color: var(--main-color);
 }
 
-
-/* section customers */
+/* section customers 4 zadanie */
 
 .our_customers {
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+list-style-type: none;
+display: flex;
+align-items: center;
+justify-content: space-between;
 }
 
 .our_customers_list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .our_customers_list_item {
-  display: flex;
-  width: 170px;
-  height: 92px;
-  border: 1px solid #afb1b8;
-  fill: #afb1b8;
-  border-radius: 4px;
-  justify-content: center;
-  align-items: center;
-  margin-top: 50px;
-  margin-bottom: 94px;
+display: flex;
+width: 170px;
+height: 92px;
+border: 1px solid #afb1b8;
+fill: #afb1b8;
+border-radius: 4px;
+justify-content: center;
+align-items: center;
+margin-top: 50px;
+margin-bottom: 94px;
 }
 
 .our_customers_icon {
-  width: 106px;
-  height: 60px;
+width: 106px;
+height: 60px;
 }
 
 .our_customers_list_item:hover,
 .our_customers_list_item:focus {
-  fill: var(--main-color);
-  border-color: var(--main-color);
+fill: var(--main-color);
+border-color: var(--main-color);
 }
 
-/* footer */
+/* footer 4 zadanie */
 
 .two_side {
-  display: flex;
-  align-items: baseline;
+display: flex;
+align-items: baseline;
 }
 
 .left_side {
-  display: block;
+display: block;
 }
 
 .right_side {
 margin-left: 70px;
-
 }
 
 .follow_us {
-  display: flex;
-  align-items: center;
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.03em;
-  color: #fff;
+display: flex;
+align-items: center;
+font-family: var(--main-font);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+color: #fff;
 }
 
 .follow_us_icons {
-  display: flex;
-  align-items: center;
+display: flex;
+align-items: center;
 }
 
 .follow_us_icon {
-  display: flex;
-  width: 44px;
-  height: 44px;
-  fill: #fff;
-  background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 50%;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+display: flex;
+width: 44px;
+height: 44px;
+fill: #fff;
+background-color: rgba(255, 255, 255, 0.1);
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
 }
 
 .follow_us_list:not(:last-child) {
-  margin-right: 10px;
-  }
+margin-right: 10px;
+}
 
 .follow_us_icon_link {
-  width: 20px;
-  height: 20px;
-  display: block;
+width: 20px;
+height: 20px;
+display: block;
 }
 
 .follow_us_icon:hover,
 .follow_us_icon:focus {
-  fill: #fff;
-  background-color: var(--main-color);
+fill: #fff;
+background-color: var(--main-color);
 }
 
 /* portfolio 4 zadanie */
 
 .options_images_list_item:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-  cursor: pointer;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+cursor: pointer;
 } 
