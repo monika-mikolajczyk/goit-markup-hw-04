@@ -22,7 +22,10 @@ color: black;
 }
 
 .slogan_background {
-background-color:#2F303A;
+background-color:rgba(47, 48, 58, 0.4);
+background: linear-gradient( rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4) ), 
+url(/images/background.jpg);
+object-fit: contain;
 }
 
 .slogan {
@@ -374,6 +377,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 text-transform: none;
 justify-content: center;
+border: 0;
 }
 
 .modal-btn-class {
